@@ -1,4 +1,4 @@
-//catch all error for all routes that does'nt exist
+//catch all error for all routes that doesn't exist
 export const notFound = (req, res, next) => {
   const error = new Error(`Not Found - ${req.originalUrl}`);
   res.status(404);
