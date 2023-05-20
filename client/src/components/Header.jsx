@@ -4,7 +4,7 @@ import {FaSignInAlt, FaSignOutAlt} from "react-icons/fa"
 const Header = () => {
   return (
     <header>
-      <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
+      <Navbar bg="dark" variant="dark" expa nd="lg" collapseOnSelect>
         <Container>
           <Navbar.Brand href="/">MERN Auth App</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
